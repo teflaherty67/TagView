@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command TagView</Text>
+    <Description>Some description for TagView</Description>
+    <Assembly>TagView.dll</Assembly>
+    <FullClassName>TagView.Command</FullClassName>
+    <ClientId>e697fd1a-b4cc-4c4b-9e58-481d0ef1ee6c</ClientId>
+    <VendorId>T Edward</VendorId>
+    <VendorDescription>T Edward Coder</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application TagView</Name>
+    <Assembly>TagView.dll</Assembly>
+    <FullClassName>TagView.App</FullClassName>
+    <ClientId>c22cbfa2-ccc0-46d3-a35d-c81f5902d7df</ClientId>
+    <VendorId>T Edward</VendorId>
+    <VendorDescription>T Edward Coder</VendorDescription>
+  </AddIn>
+</RevitAddIns>
